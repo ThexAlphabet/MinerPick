@@ -1,0 +1,14 @@
+name: MinerPick
+version: 1.0
+main: dev.xalphabet.minerpick.MinerPick
+api-version: 1.20
+author: xAlphabet_
+commands:
+  givepickaxe:
+    description: Gives a special pickaxe.
+    usage: /givepickaxe
+    permission: pickaxe.give
+permissions:
+  pickaxe.give:
+    description: Allows the player to use /givepickaxe command.
+    default: op

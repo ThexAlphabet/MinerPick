@@ -1,0 +1,19 @@
+pickaxe:
+  # The type of the pickaxe. You can use any valid Minecraft material type for pickaxes such as WOODEN_PICKAXE, STONE_PICKAXE, IRON_PICKAXE, GOLDEN_PICKAXE, DIAMOND_PICKAXE, or NETHERITE_PICKAXE.
+  type: "DIAMOND_PICKAXE"
+
+  # The display name of the pickaxe. Use color codes with '&' to format the name.
+  name: "&bSpecial Pickaxe"
+
+  # The lore (description) of the pickaxe. Use '|' to separate multiple lines. Use color codes with '&' to format the lore.
+  lore: "&aThis pickaxe can mine 3x3!|&cUse it wisely!"
+
+  # Enchantments to be applied to the pickaxe. The key is the enchantment name, and the value is the level of the enchantment.
+  # You can add multiple enchantments and change their levels as desired.
+  enchantments:
+    DIG_SPEED: 5      # Increases mining speed (Efficiency). Adjust the level to increase or decrease the effect.
+    DURABILITY: 3     # Increases durability (Unbreaking). Adjust the level to increase or decrease the effect.
+    # SILK_TOUCH: 1
+    # FORTUNE: 3
+    # VANISHING_CURSE: 1
+    # BINDING_CURSE: 1   # Prevents the item from being removed from the player's inventory (Useful only for armor, but left as an example).
